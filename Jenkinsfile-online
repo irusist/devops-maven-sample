@@ -29,6 +29,7 @@ pipeline {
             }
         }
 
+        /*
         stage('sonarqube analysis') {
             steps {
                 container('maven') {
@@ -42,7 +43,7 @@ pipeline {
                     }
                 }
             }
-        }
+        } */
 
         stage('build & push') {
             steps {
